@@ -1,0 +1,119 @@
+body, html, .container-fluid, .container-fluid > .row{ height:100%; }
+body{ position:relative;}
+
+.container-login{
+	width:320px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	background-color:rgb(255,255,255);
+	padding:15px;
+	border-radius: 10px;
+}
+.container-login h2{
+	margin:0;
+	text-align:center;
+}
+
+.sidebar, .main-content { float:left; }
+
+.sidebar{
+	background-color:#363C47;
+	min-height: 100%;
+}
+.header{
+	background-color:rgb(136,191,87);
+	margin-bottom:15px;
+	padding: 15px 0px 15px 25px;
+	font-size:1.5em;
+	color:rgb(255,255,255);
+}
+.header p{
+	margin:0;
+	padding:0;
+}
+.user{
+	text-align:center;
+	padding-bottom:15px;
+	border-bottom:1px solid rgb(45,50,59);
+	height:190px;
+}
+	.user__thumbnail{
+		border-radius:50%;
+		margin-bottom:7px;
+		border:7px solid rgb(45,50,59);
+	}
+	.user__displayname{
+		color: rgb(236,236,236);
+		font-size:1.1em;
+	}
+
+.menu{
+	list-style:none;
+	padding:0;
+}
+	.menu-item{
+		line-height:35px;
+		padding-left:25px;
+		text-transform:uppercase;
+	}
+	.menu-item .glyphicon{ 
+		margin-right:10px; 
+	}
+		.menu-item a{
+			color:rgb(236,236,236);
+			text-decoration:none;
+			display:block;
+			position: absolute;
+		}
+	.menu-item:hover{
+		background-color: rgb(45,50,59);
+		cursor:pointer;
+	}
+		.menu-item:hover a{
+			color:rgb(255,255,255);
+		}
+
+.content{
+	padding-bottom:30px;
+	min-height: 100%;
+}
+
+.module__header{
+	border-bottom:1px solid rgb(236,236,236);
+	padding-bottom:7px;
+	margin-bottom:15px;
+}
+
+.form-inline .form-group{
+	margin-bottom:12px;
+	margin-right:10px;
+}
+
+.footer{
+	background-color:rgb(45,50,59);
+	position:absolute;
+	bottom:0;
+	color: rgb(150,150,150);
+	padding: 10px;
+	text-align:center;
+}
+.module__header1{
+	
+	padding-bottom:7px;
+	margin-bottom:100px;
+	margin-top:100px;
+	color:rgb(255,255,255);
+}
+.anterior, .siguiente{
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+}
+table tr td{
+	border-bottom:1px solid #ccc !important;
+}
+.estatus{
+	padding-left:0;
+	margin-left:0;
+}
